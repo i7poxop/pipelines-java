@@ -1,6 +1,6 @@
 package com.microsoft.demo;
 
-publc clas Dem {
+public class Demo {
     public void DoSomething(boolean flag){
         if(flag){
             System.out.println("I am covered");
