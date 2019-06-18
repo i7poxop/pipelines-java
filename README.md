@@ -1,5 +1,7 @@
 
 # Contributing
+![Build Status](https://dev.azure.com/iviiv/pipelines-java/_apis/build/status/i7poxop.pipelines-java?branchName=master)
+[![Build Status](https://dev.azure.com/iviiv/pipelines-java/_apis/build/status/i7poxop.pipelines-java?branchName=master)](https://dev.azure.com/iviiv/pipelines-java/_build/latest?definitionId=1&branchName=master)
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
