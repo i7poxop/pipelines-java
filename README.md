@@ -1,14 +1,14 @@
 # PIPELINES-JAVA
 [![GitHub Super-Linter](https://github.com/noshimorimoshi/pipelines-java/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/noshimorimoshi/pipelines-java/actions?query=workflows%3Asuper-linter)
 ## working LINTERS
-1. CSS = VALIDATE_CSS = CSS_FILE_NAME: .stylelintrc
+1. ☑️ CSS = VALIDATE_CSS = CSS_FILE_NAME: .stylelintrc
 1. Copy/paste detection = VALIDATE_JSCPD
 1. Dockerfile = VALIDATE_DOCKERFILE
 1. Dockerfile = VALIDATE_DOCKERFILE_HADOLINT
 1. EditorConfig = VALIDATE_EDITORCONFIG
 1. GitHub Actions = VALIDATE_GITHUB_ACTIONS
 1. HTML = VALIDATE_HTML
-1. JavaScript = VALIDATE_JAVASCRIPT_ES = JAVASCRIPT_ES_CONFIG_FILE .eslintrc
+1. ☑️ JavaScript = VALIDATE_JAVASCRIPT_ES = JAVASCRIPT_ES_CONFIG_FILE .eslintrc
 1. JSON = VALIDATE_JSON
 1. JSONC
 1. Markdown = VALIDATE_MARKDOWN
