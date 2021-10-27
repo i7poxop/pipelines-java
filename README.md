@@ -1,5 +1,4 @@
-# PIPELINES-JAVA
-[![GitHub Super-Linter](https://github.com/noshimorimoshi/pipelines-java/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/noshimorimoshi/pipelines-java/actions?query=workflow%3Asuper-linter)
+[![GitHub Super-Linter](https://github.com/noshimorimoshi/pipelines-java/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/noshimorimoshi/pipelines-java/actions?query=workflows%3Asuper-linter)
 ## working LINTERS
 1. CSS = VALIDATE_CSS
 1. Copy/paste detection = VALIDATE_JSCPD
