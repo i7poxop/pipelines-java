@@ -51,6 +51,14 @@ jobs:
         uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: false
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          ACTIONS_RUNNER_DEBUG: true
+          LINTER_RULES_PATH: /
+          CSS_FILE_NAME: .stylelintrc
+          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc
+
           VALIDATE_JAVASCRIPT_STANDARD: false
           VALIDATE_JSX: false
           VALIDATE_SQL: false
@@ -109,5 +117,3 @@ jobs:
           VALIDATE_SNAKEMAKE_SNAKEFMT: false
           VALIDATE_STATES: false
           VALIDATE_TEKTON: false
-          DEFAULT_BRANCH: master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
