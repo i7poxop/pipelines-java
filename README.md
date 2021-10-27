@@ -18,7 +18,7 @@
 ## other LINTERS
 1. JavaScript = VALIDATE_JAVASCRIPT_STANDARD
 1. JavaScript = VALIDATE_JSX
-1. Ansible = VALIDATE_ANSIBLE = ANSIBLE_CONFIG_FILE	.ansible-lint.yml = ANSIBLE_DIRECTORY	/ansible
+1. Ansible = VALIDATE_ANSIBLE = ANSIBLE_CONFIG_FILE .ansible-lint.yml = ANSIBLE_DIRECTORY /ansible
 1. Azure Resource Manager (ARM) = VALIDATE_ARM
 1. AWS CloudFormation templates = VALIDATE_CLOUDFORMATION
 1. AWS = VALIDATE_STATES
