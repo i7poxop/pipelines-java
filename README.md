@@ -1,16 +1,77 @@
 # PIPELINES-JAVA
-[![GitHub Super-Linter](https://github.com/noshimorimoshi/pipelines-java/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/noshimorimoshi/pipelines-java/actions?query=workflow%3Alinter-test)
-## LINTERS
-- CSS
-- Copy/paste detection
-- Dockerfile
-- EditorConfig
-- GitHub Actions
-- HTML
-- JavaScript
-- JSON
-- JSONC
-- Markdown
-- Natural language
-- Secrets
-- YAML
+[![GitHub Super-Linter](https://github.com/noshimorimoshi/pipelines-java/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/noshimorimoshi/pipelines-java/actions?query=workflow%3Asuper-linter)
+## working LINTERS
+1. CSS = VALIDATE_CSS
+1. Copy/paste detection = VALIDATE_JSCPD
+1. Dockerfile = VALIDATE_DOCKERFILE
+1. Dockerfile = VALIDATE_DOCKERFILE_HADOLINT
+1. EditorConfig = VALIDATE_EDITORCONFIG
+1. GitHub Actions = VALIDATE_GITHUB_ACTIONS
+1. HTML = VALIDATE_HTML
+1. JavaScript = VALIDATE_JAVASCRIPT_ES
+1. JSON = VALIDATE_JSON
+1. JSONC
+1. Markdown = VALIDATE_MARKDOWN
+1. Natural language = VALIDATE_NATURAL_LANGUAGE
+1. Secrets = VALIDATE_GITLEAKS
+1. YAML = VALIDATE_YAML
+1. YAML = YAML_CONFIG_FILE
+## other LINTERS
+1. JavaScript = VALIDATE_JAVASCRIPT_STANDARD
+1. JavaScript = VALIDATE_JSX
+1. Ansible = VALIDATE_ANSIBLE
+1. Azure Resource Manager (ARM) = VALIDATE_ARM
+1. AWS CloudFormation templates = VALIDATE_CLOUDFORMATION
+1. AWS = VALIDATE_STATES
+1. C++ = VALIDATE_CPP
+1. C++ = VALIDATE_CLANG_FORMAT
+1. C# = VALIDATE_CSHARP
+1. Clojure = VALIDATE_CLOJURE
+1. CoffeeScript = VALIDATE_COFFEESCRIPT
+1. Dart = VALIDATE_DART
+1. ENV = VALIDATE_ENV
+1. Gherkin = VALIDATE_GHERKIN
+1. Golang = VALIDATE_GO
+1. Groovy = VALIDATE_GROOVY
+1. Java = VALIDATE_GOOGLE_JAVA_FORMAT
+1. Java = VALIDATE_JAVA
+1. Kubeval = VALIDATE_KUBERNETES_KUBEVAL
+1. Kotlin = VALIDATE_KOTLIN
+1. LaTeX = VALIDATE_LATEX
+1. Lua = VALIDATE_LUA
+1. OpenAPI = VALIDATE_OPENAPI
+1. Perl = VALIDATE_PERL
+1. PHP = VALIDATE_PHP
+1. PHP = VALIDATE_PHP_BUILTIN
+1. PHP = VALIDATE_PHP_PHPCS
+1. PHP = VALIDATE_PHP_PHPSTAN
+1. PHP = VALIDATE_PHP_PSALM
+1. PowerShell = VALIDATE_POWERSHELL
+1. Protocol Buffers = VALIDATE_PROTOBUF
+1. Python3 = VALIDATE_PYTHON
+1. Python3 = VALIDATE_PYTHON_BLACK
+1. Python3 = VALIDATE_PYTHON_FLAKE8
+1. Python3 = VALIDATE_PYTHON_ISORT
+1. Python3 = VALIDATE_PYTHON_MYPY
+1. Python3 = VALIDATE_PYTHON_PYLINT
+1. R = VALIDATE_R
+1. Raku = VALIDATE_RAKU
+1. Ruby = VALIDATE_RUBY
+1. Rust = VALIDATE_RUST_2015
+1. Rust = VALIDATE_RUST_2018
+1. Rust = VALIDATE_RUST_CLIPPY
+1. Shell = VALIDATE_BASH
+1. Shell = VALIDATE_BASH_EXEC
+1. Shell = VALIDATE_SHELL_SHFMT
+1. Snakemake = VALIDATE_SNAKEMAKE_LINT
+1. Snakemake = VALIDATE_SNAKEMAKE_SNAKEFMT
+1. SQL = VALIDATE_SQL
+1. SQL = VALIDATE_SQLFLUFF
+1. Tekton = VALIDATE_TEKTON
+1. Terraform = VALIDATE_TERRAFORM_TFLINT
+1. Terraform = VALIDATE_TERRAFORM_TERRASCAN
+1. Terragrunt = VALIDATE_TERRAGRUNT
+1. TypeScript = VALIDATE_TSX
+1. TypeScript = VALIDATE_TYPESCRIPT_ES
+1. TypeScript = VALIDATE_TYPESCRIPT_STANDARD
+1. XML = VALIDATE_XML
