@@ -54,7 +54,7 @@ jobs:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          ACTIONS_RUNNER_DEBUG: true
+          ACTIONS_RUNNER_DEBUG: false
           LINTER_RULES_PATH: /
           CSS_FILE_NAME: .stylelintrc
           JAVASCRIPT_ES_CONFIG_FILE: .eslintrc
